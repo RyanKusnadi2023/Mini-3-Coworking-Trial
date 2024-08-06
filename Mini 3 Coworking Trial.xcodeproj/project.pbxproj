@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1631C1192C61E51F0078044B /* IncomingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1631C1182C61E51F0078044B /* IncomingView.swift */; };
 		B0BD47232C61D5C200A399F5 /* Mini_3_Coworking_TrialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD47222C61D5C200A399F5 /* Mini_3_Coworking_TrialApp.swift */; };
 		B0BD47252C61D5C200A399F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD47242C61D5C200A399F5 /* ContentView.swift */; };
 		B0BD47272C61D5C300A399F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BD47262C61D5C300A399F5 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1631C1182C61E51F0078044B /* IncomingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingView.swift; sourceTree = "<group>"; };
 		B0BD471F2C61D5C200A399F5 /* Mini 3 Coworking Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini 3 Coworking Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BD47222C61D5C200A399F5 /* Mini_3_Coworking_TrialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_3_Coworking_TrialApp.swift; sourceTree = "<group>"; };
 		B0BD47242C61D5C200A399F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1631C1172C61E5090078044B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1631C1182C61E51F0078044B /* IncomingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B0BD47162C61D5C200A399F5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		B0BD47212C61D5C200A399F5 /* Mini 3 Coworking Trial */ = {
 			isa = PBXGroup;
 			children = (
+				1631C1172C61E5090078044B /* Views */,
 				B0BD47222C61D5C200A399F5 /* Mini_3_Coworking_TrialApp.swift */,
 				B0BD47242C61D5C200A399F5 /* ContentView.swift */,
 				B0BD47262C61D5C300A399F5 /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1631C1192C61E51F0078044B /* IncomingView.swift in Sources */,
 				B0BD47252C61D5C200A399F5 /* ContentView.swift in Sources */,
 				B0BD47232C61D5C200A399F5 /* Mini_3_Coworking_TrialApp.swift in Sources */,
 			);
