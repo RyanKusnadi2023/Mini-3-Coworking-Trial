@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6C486BD2C61E14F00D9C9E2 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C486BC2C61E14F00D9C9E2 /* HeaderComponent.swift */; };
+		A6C486C02C61E21A00D9C9E2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C486BF2C61E21A00D9C9E2 /* Color.swift */; };
+		A6C486C42C61E37500D9C9E2 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C486C32C61E37500D9C9E2 /* TasksView.swift */; };
+		A6C486C62C61E3BB00D9C9E2 /* CalendarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C486C52C61E3BB00D9C9E2 /* CalendarComponent.swift */; };
+		A6C486CC2C61E62100D9C9E2 /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C486CB2C61E62100D9C9E2 /* ButtonComponent.swift */; };
+		A6C486CE2C61E8A600D9C9E2 /* ImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C486CD2C61E8A600D9C9E2 /* ImageComponent.swift */; };
 		B0BD47232C61D5C200A399F5 /* Mini_3_Coworking_TrialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD47222C61D5C200A399F5 /* Mini_3_Coworking_TrialApp.swift */; };
 		B0BD47252C61D5C200A399F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD47242C61D5C200A399F5 /* ContentView.swift */; };
 		B0BD47272C61D5C300A399F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BD47262C61D5C300A399F5 /* Assets.xcassets */; };
@@ -20,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6C486BC2C61E14F00D9C9E2 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		A6C486BF2C61E21A00D9C9E2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A6C486C32C61E37500D9C9E2 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		A6C486C52C61E3BB00D9C9E2 /* CalendarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarComponent.swift; sourceTree = "<group>"; };
+		A6C486CB2C61E62100D9C9E2 /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
+		A6C486CD2C61E8A600D9C9E2 /* ImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComponent.swift; sourceTree = "<group>"; };
 		B0BD471F2C61D5C200A399F5 /* Mini 3 Coworking Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini 3 Coworking Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BD47222C61D5C200A399F5 /* Mini_3_Coworking_TrialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_3_Coworking_TrialApp.swift; sourceTree = "<group>"; };
 		B0BD47242C61D5C200A399F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6C486BA2C61E0BC00D9C9E2 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C486BB2C61E12D00D9C9E2 /* Component */,
+				A6C486C32C61E37500D9C9E2 /* TasksView.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		A6C486BB2C61E12D00D9C9E2 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A6C486BC2C61E14F00D9C9E2 /* HeaderComponent.swift */,
+				A6C486C52C61E3BB00D9C9E2 /* CalendarComponent.swift */,
+				A6C486CB2C61E62100D9C9E2 /* ButtonComponent.swift */,
+				A6C486CD2C61E8A600D9C9E2 /* ImageComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		A6C486BE2C61E21000D9C9E2 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				A6C486BF2C61E21A00D9C9E2 /* Color.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		B0BD47162C61D5C200A399F5 = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +103,8 @@
 		B0BD47212C61D5C200A399F5 /* Mini 3 Coworking Trial */ = {
 			isa = PBXGroup;
 			children = (
-
+				A6C486BE2C61E21000D9C9E2 /* extension */,
+				A6C486BA2C61E0BC00D9C9E2 /* Tasks */,
 				C0A555262C61E13B00C8FA17 /* Profile */,
 				B0BD47322C61D6AF00A399F5 /* Model */,
 				B0BD47312C61D6A800A399F5 /* ViewModel */,
@@ -254,6 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C486CC2C61E62100D9C9E2 /* ButtonComponent.swift in Sources */,
+				B0BD47252C61D5C200A399F5 /* ContentView.swift in Sources */,
+				A6C486CE2C61E8A600D9C9E2 /* ImageComponent.swift in Sources */,
+				A6C486C62C61E3BB00D9C9E2 /* CalendarComponent.swift in Sources */,
+				A6C486C02C61E21A00D9C9E2 /* Color.swift in Sources */,
+				A6C486BD2C61E14F00D9C9E2 /* HeaderComponent.swift in Sources */,
 				B0BD473D2C61DE6500A399F5 /* OnboardingView.swift in Sources */,
 				B0BD47252C61D5C200A399F5 /* ContentView.swift in Sources */,
 
@@ -265,6 +312,7 @@
 				B0BD473F2C61E01800A399F5 /* OnboardingScrolledCardView.swift in Sources */,
 
 				B0BD47232C61D5C200A399F5 /* Mini_3_Coworking_TrialApp.swift in Sources */,
+				A6C486C42C61E37500D9C9E2 /* TasksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
